@@ -1,7 +1,7 @@
 Summary: A library for interfacing IEEE 1284-compatible devices
 Name: libieee1284
 Version: 0.2.11
-Release: 13%{?dist}
+Release: 15%{?dist}
 License: GPLv2+
 Group: System Environment/Libraries
 URL: http://cyberelk.net/tim/libieee1284/
@@ -71,6 +71,12 @@ rm -rf %{buildroot}
 %postun -p /sbin/ldconfig
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.2.11-15
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.2.11-14
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.2.11-13
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
